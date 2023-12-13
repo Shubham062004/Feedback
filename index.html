@@ -1,83 +1,40 @@
-<!--Make a Table of describing about your entire schedule -->
-<!--Add the days of the week,the task to do ,time -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>TIME TABLE</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <table>
-      <caption>
-        <b>TIME TABLE &#128197; </b>
-      </caption>
-      <tr>
-        <th>Day/Period</th>
-        <th>I<br />9am-10am</th>
-        <th>II<br />10am-11am</th>
-        <th>III<br />11:15am-12:15pm</th>
-        <th>IV<br />12:15pm-1:15pm</th>
-        <th>1:15pm-2:00pm</th>
-        <th>V<br />2:00pm-5:00pm</th>
-        <th>VI<br />5:30pm-6:30pm</th>
-      </tr>
-      <tr>
-        <td><b>Monday</b></td>
-        <td>Subject2</td>
-        <td>Subject4</td>
-        <td>Subject6</td>
-        <td>Subject8</td>
-        <td class="lunch-time" rowspan="6">
-          <b>L<br />U<br />N<br />C<br />H</b>
-        </td>
-        <td>Subject1</td>
-        <td>Subject5</td>
-      </tr>
-      <tr>
-        <td><b>Tuesday</b></td>
-        <td>Subject8</td>
-        <td>Subject2</td>
-        <td>Subject6</td>
-        <td>Subject3</td>
-        <td>Subject4</td>
-        <td>Subject7</td>
-      </tr>
-      <tr>
-        <td><b>Wednesday</b></td>
-        <td>Subject4</td>
-        <td>Subject5</td>
-        <td>Subject3</td>
-        <td>Subject1</td>
-        <td>Subject2</td>
-        <td>Subject6</td>
-      </tr>
-      <tr>
-        <td><b>Thursday</b></td>
-        <td>Subject1</td>
-        <td>Subject2</td>
-        <td>Subject6</td>
-        <td>Subject5</td>
-        <td>Subject3</td>
-        <td>Subject8</td>
-      </tr>
-      <tr>
-        <td><b>Friday</b></td>
-        <td>Subject8</td>
-        <td>Subject4</td>
-        <td>Subject5</td>
-        <td>Subject6</td>
-        <td>Subject2</td>
-        <td>Subject1</td>
-      </tr>
-      <tr>
-        <td><b>Saturday</b></td>
-        <td>Subject2</td>
-        <td>Subject6</td>
-        <td>Subject4</td>
-        <td>Subject3</td>
-        <td>Subject1</td>
-        <td>Subject7</td>
-      </tr>
-    </table>
+    <h1>Feedback App</h1>
+    <div>
+      <h2>Game 1</h2>
+      <br />
+      <label for="">Enter your score: </label>
+      <input type="number" name="" id="number-input1" />
+      <button id="button1">Submit</button>
+      <br /><br />
+      <h3>Comment</h3>
+      <p id="comment-container1"></p>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <div>
+      <h2>Game 2</h2>
+      <br />
+      <label for="">Enter your score: </label>
+      <input type="number" name="" id="number-input2" />
+      <button id="button2">Submit</button>
+      <br /><br />
+      <h3>Comment</h3>
+      <p id="comment-container2"></p>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <script src="app.js"></script>
   </body>
 </html>
